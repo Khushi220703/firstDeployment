@@ -13,7 +13,7 @@ const Form = () => {
     alert("hello");  
   
     if((name !== '' && email !== '' && password !== '' && cPassword !== '' && number !== '' && gender !=='') && (cPassword === password))
-     { 
+     { alert("k");
       const formData = {name,email,password,cPassword,number,gender};
       
       try {
