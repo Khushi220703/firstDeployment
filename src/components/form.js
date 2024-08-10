@@ -17,7 +17,7 @@ const Form = () => {
       const formData = {name,email,password,cPassword,number,gender};
       
       try {
-        const data = await axios.post("http://localhost:5000/api/users/signup",formData);
+        const data = await axios.post("https://first-api-deployment.vercel.app/api/users/signup",formData);
        
         console.log(data);
         
